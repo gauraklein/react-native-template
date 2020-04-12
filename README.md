@@ -8,4 +8,3 @@
 - [Expo](https://expo.io/)
 - [Redux](https://redux.js.org/)
 - [React Navigation](https://reactnavigation.org/)
-

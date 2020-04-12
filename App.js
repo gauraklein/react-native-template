@@ -10,11 +10,11 @@ import reducers from "./src/redux/rootReducer";
 //SCREENS
 import {ExampleScreen} from "./src/screens/example/ExampleScreen"
 
+//REDUX
 const reducer = combineReducers(reducers);
-
 const store = createStore(reducer, applyMiddleware(thunk));
 
-
+//REACT NAVIGATION
 const Stack = createStackNavigator();
 
 export default function App() {
